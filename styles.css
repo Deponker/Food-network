@@ -23,12 +23,12 @@ nav a{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
     font-weight:900;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .section-1 p{
     font-size: 25px;
-    opacity: 70%;
+    opacity: 80%;
     text-align: left;
 }
 
@@ -51,7 +51,7 @@ nav a{
 #sec-1-left{
     margin-top: 200px;
     padding-left: 80px;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 #sec-1-right{
@@ -94,17 +94,17 @@ nav a{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
     font-weight:900;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .section-2 p{
     font-size: 25px;
-    opacity: 70%;
+    opacity: 80%;
     text-align: left;
 }
 
 .sec-2-div-left img{
-    width: 65%;
+    width: 70%;
     padding-left: 200px;
     padding-top: 50px; */
 }
@@ -153,7 +153,7 @@ nav a{
 .section-3 p{
     font-size: 25px;
     text-align: left;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .box h1{
@@ -205,20 +205,27 @@ nav a{
     padding-left: 9.5%;
 }
 
+.section-5{
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgb(7, 57, 148);
+    margin-left: 11%;
+    padding-top: 50px;
+}
+
 .section-5 h1{
     font-size: 50px;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
     font-weight:900;
-    padding-left: 500px;
-    color: brown;
+    padding-left: 350px;
+    color: rgb(128, 111, 111);
 }
 
 .sec-5-div{
     display: flex;
-    padding-left: 500px;
+    padding-left: 370px;
     margin-bottom: 70px;
-    background-image: linear-gradient(to right pink, purple);
 }
 
 .sec-5-div img{
