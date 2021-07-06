@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.section-1{
+    display: flex;
+}
+
+.half-width h1{
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+}
+
+.half-width p{
+    font-size: 30px;
+}
+
+#sec-1-left{
+    margin-top: 200px;
+    padding-left: 80px;
+    opacity: 70%;
+}
+
+#sec-1-right{
+    padding-top: 60px;
+    /* padding-left: 10px; */
+}
+
+.half-width img{
+    width: 100%
+
+}
+
+.half-width{
+    /* padding-left: 60px; */
+}
+
+.orange-color{
+    color: orange;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    background-image: linear-gradient(to right, orange, red);
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.section-2{
+    display: flex;
+    background-image: url(images/);
+}
