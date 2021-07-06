@@ -225,7 +225,8 @@ nav a{
 .sec-5-div{
     display: flex;
     padding-left: 370px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
 }
 
 .sec-5-div img{
