@@ -2,20 +2,51 @@ body{
     margin: 0;
 }
 
-.section-1{
-    display: flex;
+nav a{
+    text-decoration: none;
 }
 
-.half-width h1{
+.nav{
+    margin-top: 50px;
+    text-align: right;
+    font-size:larger;
+}
+
+.nav-button{
+    padding: 30px;
+    margin-right: 30px;
+    color: black;
+}
+
+.section-1 h1{
     font-size: 50px;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
     font-weight:900;
+    opacity: 70%;
 }
 
-.half-width p{
-    font-size: 30px;
+.section-1 p{
+    font-size: 25px;
+    opacity: 70%;
+    text-align: left;
 }
+
+.section-1{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+/* .half-width h1{
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+} */
+
+/* .half-width p{
+    font-size: 30px;
+} */
 
 #sec-1-left{
     margin-top: 200px;
@@ -52,5 +83,159 @@ body{
 
 .section-2{
     display: flex;
-    background-image: url(images/);
+    background-image: url(images/section-2-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 60px;
 }
+
+.section-2 h1{
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+    opacity: 70%;
+}
+
+.section-2 p{
+    font-size: 25px;
+    opacity: 70%;
+    text-align: left;
+}
+
+.sec-2-div-left img{
+    width: 65%;
+    padding-left: 200px;
+    padding-top: 50px; */
+}
+
+.sec-2-div-right{
+    width: 100%;
+    padding-top: 120px;
+    padding-left: 190px;
+    padding-right: 120px;
+    /* opacity: 70%; */
+}
+
+.sec-3-header{
+    padding-left:300px;
+    width: 60%;
+}
+
+.sec-3-conatiner{
+    display: flex;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h1{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* margin: 0; */
+    font-weight:900;
+    color: black;
+}
+
+.sec-3-conatiner{
+    padding-left: 5%;
+}
+
+.section-3 h1{
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+    /* opacity: 70%; */
+}
+
+.section-3 p{
+    font-size: 25px;
+    text-align: left;
+    opacity: 70%;
+}
+
+.box h1{
+    font-size: 25px;
+}
+
+.box p{
+    font-size: 20px;
+    color: black;
+}
+
+.box{
+    width: 25%;
+    box-shadow: 2px 10px 10px gray;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 20px;
+}
+
+.section-4 h1{
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+    /* opacity: 70%; */
+}
+
+.section-4 p{
+    font-size: 20px;
+    text-align: left;
+    /* opacity: 70%; */
+}
+
+.sec-4-div{
+    margin-top: 100px;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 11%;
+    margin-bottom: 100px;
+
+    width: 70%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 20px;
+}
+
+.sec-4-inner-div{
+    padding-left: 9.5%;
+}
+
+.section-5 h1{
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    font-weight:900;
+    padding-left: 500px;
+    color: brown;
+}
+
+.sec-5-div{
+    display: flex;
+    padding-left: 500px;
+    margin-bottom: 70px;
+    background-image: linear-gradient(to right pink, purple);
+}
+
+.sec-5-div img{
+    padding-left: 20px;
+    width: 50%;
+}
+
+footer h1,p{
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+footer{
+    background-color:darkslategray;
+    padding: 3%;
+}
+
